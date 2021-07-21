@@ -1,10 +1,13 @@
 import Search from './components/Search'
+import Nav from './components/Nav'
+import SelectedWeather from './components/SelectedWeather'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello INCODE 3!</h1>
+      <Nav />
       <Search />
+      <SelectedWeather />
     </div>
   );
 }
